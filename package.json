@@ -21,7 +21,8 @@
     "prepublishOnly": "npm test",
     "pretest": "npm run build",
     "watch": "tsc -w",
-    "watch:test": "ava -w"
+    "watch:test": "ava -w",
+    "prepack": "npm run build:server"
   },
   "repository": {
     "type": "git",
